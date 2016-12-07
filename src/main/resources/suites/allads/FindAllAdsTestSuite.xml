@@ -1,0 +1,15 @@
+<suite name="allads">
+   
+    <test name="Find All Ads Test Case">
+        <classes>
+            <class name="allads.FindAllAdsTestCase" >
+                <methods>
+                    <include name="findAllAds">
+                        <parameter name="keyWordToSearch" value="Bolia soffa"/>
+                        <parameter name="keyWordToVerify" value="Bolia soffa" />
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+ </suite>

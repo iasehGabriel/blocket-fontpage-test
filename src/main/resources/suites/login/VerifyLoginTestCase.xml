@@ -1,0 +1,15 @@
+<suite name="mainPage">
+   
+    <test name="Verify Main Page Test Case">
+        <classes>
+            <class name="mainPage.VerifyMainPageTestCase" >
+                <methods>
+                    <include name="verifyLogin">
+                        <parameter name="user_email" value="Gabriel.Sai.He@gmail.com" />
+                        <parameter name="user_password" value="521xnwy39409SEms" />
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+ </suite>

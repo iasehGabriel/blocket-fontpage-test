@@ -1,0 +1,15 @@
+<suite name="job">
+   
+    <test name="Find Jobs Test Case">
+        <classes>
+            <class name="job.FindJobsTestCase" >
+                <methods>
+                    <include name="findJobs">
+                        <parameter name="jobPosition" value="Test Automation" />
+                        <parameter name="jobLocation" value="Stockholm" />
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+ </suite>

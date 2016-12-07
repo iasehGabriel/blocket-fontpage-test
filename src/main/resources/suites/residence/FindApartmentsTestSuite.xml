@@ -1,0 +1,15 @@
+<suite name="residence">
+   
+    <test name="Find Apartment Test Case">
+        <classes>
+            <class name="residence.FindResidencesTestCase" >
+                <methods>
+                    <include name="findResidences">
+                        <parameter name="location" value="Liljeholmen Stockholm" />
+                        <parameter name="type" value="Lägenr" />
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+ </suite>
